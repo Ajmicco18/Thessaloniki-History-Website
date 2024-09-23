@@ -9,7 +9,6 @@ function App() {
         <img src={whiteTower} alt="White Tower" width={"1000px"} />
 
       </div>
-
     </>
   )
 }
