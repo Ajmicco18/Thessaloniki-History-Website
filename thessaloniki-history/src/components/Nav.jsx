@@ -27,7 +27,7 @@ export default function Nav() {
     };
 
     return (
-        <AppBar position="fixed" sx={{ backgroundColor: 'gray' }}>
+        <AppBar position="fixed" sx={{ backgroundColor: 'navy' }}>
             <Container maxWidth="fixed">
                 <Toolbar disableGutters>
                     <Box
@@ -52,7 +52,7 @@ export default function Nav() {
                                 fontFamily: 'monospace',
                                 fontWeight: 700,
                                 letterSpacing: '.3rem',
-                                color: 'inherit',
+                                color: 'gold',
                                 textDecoration: 'none',
                             }}
                         >
@@ -89,7 +89,7 @@ export default function Nav() {
                         >
                             {pages.map((page) => (
                                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                    <Typography href={page.url} sx={{ textAlign: 'center' }}>{page.name}</Typography>
+                                    <Typography component={"a"} href={page.url} sx={{ textAlign: 'center', textDecoration: "none", color: "#5b2333" }}>{page.name}</Typography>
                                 </MenuItem>
                             ))}
                         </Menu>
@@ -119,7 +119,7 @@ export default function Nav() {
                                 fontFamily: 'monospace',
                                 fontWeight: 700,
                                 letterSpacing: '.3rem',
-                                color: 'inherit',
+                                color: 'gold',
                                 textDecoration: 'none',
                             }}
                         >
@@ -133,7 +133,7 @@ export default function Nav() {
                                 key={page}
                                 onClick={handleCloseNavMenu}
                                 href={page.url}
-                                sx={{ my: 2, color: 'white', display: 'block', "&:hover": { backgroundColor: "#5b2333", color: "white" } }}
+                                sx={{ my: 2, color: 'gold', display: 'block', "&:hover": { backgroundColor: "#5b2333", color: "white" } }}
                             >
                                 {page.name}
                             </Button>

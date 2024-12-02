@@ -40,3 +40,7 @@ body {
     color: white;
     background-color: gray;
 }
+
+.list li {
+    margin-bottom: 10px;
+}

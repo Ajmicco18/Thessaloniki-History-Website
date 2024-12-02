@@ -10,7 +10,7 @@ export default function Gallery() {
 
     return (
         <>
-            <Box sx={{ height: "80px" }} />
+            <Box sx={{ height: "80px" }} ></Box>
             <div>
                 <h1>Gallery Page</h1>
             </div>
