@@ -27,8 +27,8 @@ export default function Nav() {
     };
 
     return (
-        <AppBar position="static" sx={{ backgroundColor: 'gray' }}>
-            <Container maxWidth="xl">
+        <AppBar position="fixed" sx={{ backgroundColor: 'gray' }}>
+            <Container maxWidth="fixed">
                 <Toolbar disableGutters>
                     <Box
                         sx={{
@@ -133,7 +133,7 @@ export default function Nav() {
                                 key={page}
                                 onClick={handleCloseNavMenu}
                                 href={page.url}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
+                                sx={{ my: 2, color: 'white', display: 'block', "&:hover": { backgroundColor: "#5b2333", color: "white" } }}
                             >
                                 {page.name}
                             </Button>

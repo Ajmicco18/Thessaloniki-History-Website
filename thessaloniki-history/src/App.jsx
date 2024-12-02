@@ -8,10 +8,9 @@ import Nav from './components/Nav';
 import Home from './components/Home';
 import References from './components/References';
 import Gallery from './components/Gallery';
+import "./index.css"
 
 function App() {
-
-  const year = new Date().getFullYear()
 
   return (
     <>
@@ -34,7 +33,6 @@ function App() {
           />
         </Routes>
       </Router>
-      <footer> Designed and Developed by Anthony Micco &copy;{year} </footer>
     </>
   )
 }
