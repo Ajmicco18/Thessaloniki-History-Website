@@ -32,7 +32,7 @@ export default function Home() {
                         </div>
                         <div style={{ width: "65%", margin: "auto", textAlign: "justify", fontSize: "large" }}>
                             <p>
-                                The Great Fire broke out on a hot and sunny afternoon on August 18, 1917 in the
+                                The Great Fire of 1917 broke out on a hot and sunny afternoon on August 18, 1917 in the
                                 city's Turkish quarters (Mazower). Due to a lack of water, the initial fire was never
                                 put out so the the wind blew the fire towards neighboring houses and the fire continued
                                 to spread (Yerolymbos). Eventually the fire and smoke spread to the
