@@ -4,10 +4,10 @@ import {
   Route,
   Navigate
 } from 'react-router-dom';
-import Nav from './components/Nav';
-import Home from './components/Home';
-import References from './components/References';
-import Gallery from './components/Gallery';
+import Nav from './Nav';
+import Home from './Home';
+import References from './References';
+import Gallery from './Gallery';
 import "./index.css"
 
 function App() {
