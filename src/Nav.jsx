@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import whiteTower from '../assets/white-tower.png';
+import whiteTower from './assets/white-tower.png';
 
 const pages = [{ name: 'Home', url: "/Home" }, { name: 'Gallery', url: "/Gallery" }, { name: 'References', url: "/References" }];
 

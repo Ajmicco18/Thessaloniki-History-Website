@@ -4,10 +4,10 @@ import {
     Container,
     Typography
 } from '@mui/material/';
-import headerPhoto from '../assets/header-photo.png';
-import affectedArea from '../assets/fire-area.png';
-import soldiers from "../assets/soldiers.png";
-import ernest from "../assets/ernestHebrard.png";
+import headerPhoto from './assets/header-photo.png';
+import affectedArea from './assets/fire-area.png';
+import soldiers from "./assets/soldiers.png";
+import ernest from "./assets/ernestHebrard.png";
 
 export default function Home() {
     const year = new Date().getFullYear()

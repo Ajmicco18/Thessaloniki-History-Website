@@ -7,13 +7,13 @@ import {
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ruins from "../assets/ruins.png";
-import aerial from "../assets/aerialView.png";
-import demetrios from "../assets/agiosDemetrios.png";
-import aristotle from "../assets/aristotleSq.png";
-import quay from "../assets/quayFire.png";
-import egnatia from "../assets/egnatia.png"
-import "../index.css"
+import ruins from "./assets/ruins.png";
+import aerial from "./assets/aerialView.png";
+import demetrios from "./assets/agiosDemetrios.png";
+import aristotle from "./assets/aristotleSq.png";
+import quay from "./assets/quayFire.png";
+import egnatia from "./assets/egnatia.png"
+import "./index.css"
 
 export default function Gallery() {
 
