@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Nav></Nav>
-      <Router>
+      <Router basename='/Thessaloniki-History-Website/'>
         <Routes>
           <Route
             exact
