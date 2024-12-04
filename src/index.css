@@ -44,3 +44,8 @@ body {
 .list li {
     margin-bottom: 10px;
 }
+
+.link:hover {
+    background-color: "#5b2333";
+    color: "white";
+}
