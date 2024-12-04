@@ -14,7 +14,7 @@ export default function Home() {
     return (
         <>
             <Box sx={{ height: "80px" }} />
-            <Container sx={{ width: "85%", margin: "auto", display: "flex", flexDirection: "column" }}>
+            <Container sx={{ width: "85%", margin: "auto", display: "flex", flexDirection: "column", marginBottom: "50px" }}>
                 <Box width={"100%"} margin={"auto"}>
                     <Typography variant={"h3"} textAlign={"center"} padding={"10px"} color='gold'>
                         The Great Thessaloniki Fire of 1917

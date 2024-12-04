@@ -30,7 +30,7 @@ export default function References() {
                         </li>
                     </ul>
                 </Box>
-                <Box marginTop={4} maxWidth={"50%"} margin={"auto"} padding={"15px"}>
+                <Box marginTop={4} maxWidth={"50%"} margin={"auto"} padding={"15px"} marginBottom={5}>
                     <Typography variant='h4' textAlign={"center"} color='gold'>Images</Typography>
                     <ul className='list' style={{ listStyleType: "none", fontSize: "large" }}>
                         <li>[1] French magazine “Le Miroir,” September 16, 1917.</li>

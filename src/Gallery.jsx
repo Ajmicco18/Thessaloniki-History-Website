@@ -40,7 +40,7 @@ export default function Gallery() {
     return (
         <>
             <Box sx={{ height: "80px" }} ></Box>
-            <Container sx={{ width: "85%", margin: "auto", display: "flex", flexDirection: "column" }}>
+            <Container sx={{ width: "85%", margin: "auto", display: "flex", flexDirection: "column", marginBottom: "50px" }}>
                 <Typography variant={"h3"} textAlign={"center"} padding={"10px"} color='gold' marginBottom={6}>
                     Gallery Page
                 </Typography>
@@ -60,7 +60,7 @@ export default function Gallery() {
                 </Slider>
             </Container>
 
-            < footer className='other' >
+            < footer className='index' >
                 Designed and Developed by Anthony Micco &copy; {year}
             </footer >
         </>
