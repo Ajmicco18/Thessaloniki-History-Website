@@ -19,7 +19,19 @@ export default function Home() {
                     <Typography variant={"h3"} textAlign={"center"} padding={"10px"} color='gold'>
                         The Great Thessaloniki Fire of 1917
                     </Typography>
-                    <img src={headerPhoto} alt="Thessaloniki Fire Header" style={{ maxWidth: "500px", display: 'block', marginLeft: "auto", marginRight: "auto" }} />
+                    <Box>
+                        <img
+                            src={headerPhoto}
+                            alt="Thessaloniki Fire Header"
+                            style={{
+                                maxWidth: '100%',
+                                height: '60vh',
+                                display: 'block',
+                                marginLeft: 'auto',
+                                marginRight: 'auto'
+                            }}
+                        />
+                    </Box>
                 </Box>
                 <Box marginTop={3} sx={{ width: "100%" }}>
                     <Typography variant='h4' textAlign={"center"} color='gold' sx={{ textDecoration: "underline" }}>

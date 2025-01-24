@@ -37,15 +37,15 @@ function App() {
 
   return (
     <>
-      <AppBar position="fixed" sx={{ backgroundColor: 'navy' }}>
-        <Container maxWidth="fixed">
+      <AppBar position='relative' sx={{ width: "100%", backgroundColor: 'navy' }}>
+        <Container maxWidth="100%" sx={{ padding: 0, margin: 0 }}>
           <Toolbar disableGutters>
             <Box
               sx={{
                 display: { xs: 'none', md: 'flex' },
                 alignItems: 'center',
                 gap: 1,
-                mr: 2,
+                width: "100%"
               }}
             >
               <img
@@ -70,7 +70,7 @@ function App() {
               </Typography>
             </Box>
 
-            <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+            <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
               <IconButton
                 size="large"
                 aria-label="account of current user"
@@ -78,6 +78,7 @@ function App() {
                 aria-haspopup="true"
                 onClick={handleOpenNavMenu}
                 color="inherit"
+                sx={{ position: "relative" }}
               >
                 <MenuIcon />
               </IconButton>
@@ -95,7 +96,7 @@ function App() {
                 }}
                 open={Boolean(anchorElNav)}
                 onClose={handleCloseNavMenu}
-                sx={{ display: { xs: 'block', md: 'none' } }}
+                sx={{ display: { xs: 'block', md: 'none' }, maxWidth: "100%", position: 'relative' }}
               >
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
@@ -108,8 +109,8 @@ function App() {
               sx={{
                 display: { xs: 'flex', md: 'none' },
                 alignItems: 'center',
+                justifyContent: 'center',
                 gap: 1,
-                mr: 2,
               }}
             >
               <img
@@ -127,10 +128,12 @@ function App() {
                   display: { xs: 'flex', md: 'none' },
                   flexGrow: 1,
                   fontFamily: 'monospace',
+                  fontSize: "12px",
                   fontWeight: 700,
                   letterSpacing: '.3rem',
                   color: 'gold',
                   textDecoration: 'none',
+                  textAlign: "center"
                 }}
               >
                 The Great Fire of 1917
